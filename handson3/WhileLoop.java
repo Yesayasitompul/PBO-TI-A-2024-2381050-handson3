@@ -7,14 +7,11 @@ public class WhileLoop {
             if(i > 15){
                 break;
             }
-            if (i % 3 == 0){
-                i++;
+            if (i > 15) {
                 continue;
             }
-            if (i > 15) {
-                break;
-            }
-            System.out.println();
+            System.out.println(i);
+            i++;
         }
     }
 }
