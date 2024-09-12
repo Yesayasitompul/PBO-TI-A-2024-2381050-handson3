@@ -6,7 +6,12 @@ public class ForEach {
 
         for(int satuanBilangan : himpunanBilangan) {
             if(satuanBilangan == 15) {
+                break;
             }
+            if (satuanBilangan % 3 == 0) {
+                continue;
+            }
+            System.out.println("Nilai satu bilangan : " + satuanBilangan);
         }
     }
 }
